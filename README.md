@@ -159,3 +159,9 @@ node tests/test.js
 ```
 
 26 tests covering:
+- Salary extraction (4 tests)
+- Experience extraction (5 tests)
+- Skills extraction (5 tests)
+- Name extraction (2 tests)
+- JD parsing (4 tests)
+- Matching & scoring (6 tests)
