@@ -1,0 +1,765 @@
+{
+  "name": "John Doe",
+  "salary": "12 LPA",
+  "yearOfExperience": 6,
+  "resumeSkills": [
+    "AWS",
+    "Agile",
+    "Angular",
+    "Backend",
+    "Bash",
+    "Bootstrap",
+    "CI/CD",
+    "CSS",
+    "DevOps",
+    "Docker",
+    "Express.js",
+    "Frontend",
+    "Full Stack",
+    "GitHub Actions",
+    "HTML",
+    "Hibernate",
+    "Integration Testing",
+    "JIRA",
+    "JavaScript",
+    "Jenkins",
+    "Kafka",
+    "Kubernetes",
+    "Linux",
+    "Microservices",
+    "MongoDB",
+    "MySQL",
+    "Node.js",
+    "Oracle",
+    "PostgreSQL",
+    "Python",
+    "REST API",
+    "RESTful",
+    "React",
+    "Redis",
+    "Scrum",
+    "Spring Boot",
+    "Terraform",
+    "TypeScript",
+    "Unit Testing"
+  ],
+  "matchingJobs": [
+    {
+      "jobId": "JD005",
+      "role": "Software Engineer",
+      "salary": null,
+      "aboutRole": "Desired Skills:\nPython.\nUnit testing.\nAgile programming.\nFull stack development.\nSTARS / EASY framework.\nSoftware testing.\nVM Infrastructure.",
+      "skillsAnalysis": [
+        {
+          "skill": "Agile",
+          "presentInResume": true
+        },
+        {
+          "skill": "Full Stack",
+          "presentInResume": true
+        }
+      ],
+      "matchingScore": 100,
+      "weightedScore": 30,
+      "summary": "2/2 skills matched"
+    },
+    {
+      "jobId": "JD015",
+      "role": "Software Engineer",
+      "salary": null,
+      "aboutRole": "Required Technologies:\nOne or more programming languages: Java, .NET(C#), Python.\nSoftware architecture principles and patterns.\nObject-oriented design and development.\nRelational Databases and SQL (MySQL, PostgreSQL, Microsoft SQL).\nREST API development and integration.\nGit and other source control",
+      "skillsAnalysis": [
+        {
+          "skill": "Agile",
+          "presentInResume": true
+        },
+        {
+          "skill": "C#",
+          "presentInResume": false
+        },
+        {
+          "skill": "Git",
+          "presentInResume": true
+        },
+        {
+          "skill": "Java",
+          "presentInResume": true
+        },
+        {
+          "skill": "MySQL",
+          "presentInResume": true
+        },
+        {
+          "skill": "PostgreSQL",
+          "presentInResume": true
+        },
+        {
+          "skill": "REST API",
+          "presentInResume": true
+        },
+        {
+          "skill": "Unit Testing",
+          "presentInResume": true
+        }
+      ],
+      "matchingScore": 87.5,
+      "weightedScore": 87.5,
+      "summary": "7/8 skills matched"
+    },
+    {
+      "jobId": "JD002",
+      "role": "Capgemini Java Full Stack Engineer",
+      "salary": "$61,087 - $104,364",
+      "aboutRole": "Should have 7 years of strong hands-on experience with Core Java, Spring Boot.\nShould have 4 years of strong hands-on experience with Angular or React.\nHands On experience Relational Database: Microsoft SQL Server, DB2 or NoSQL is required.\nShould have strong hands on experience working on Microserv",
+      "skillsAnalysis": [
+        {
+          "skill": "Angular",
+          "presentInResume": true
+        },
+        {
+          "skill": "DB2",
+          "presentInResume": false
+        },
+        {
+          "skill": "Docker",
+          "presentInResume": true
+        },
+        {
+          "skill": "Full Stack",
+          "presentInResume": true
+        },
+        {
+          "skill": "Java",
+          "presentInResume": true
+        },
+        {
+          "skill": "Kafka",
+          "presentInResume": true
+        },
+        {
+          "skill": "Microservices",
+          "presentInResume": true
+        },
+        {
+          "skill": "NoSQL",
+          "presentInResume": false
+        },
+        {
+          "skill": "REST API",
+          "presentInResume": true
+        },
+        {
+          "skill": "SQL Server",
+          "presentInResume": false
+        },
+        {
+          "skill": "Spring",
+          "presentInResume": true
+        },
+        {
+          "skill": "AI",
+          "presentInResume": false
+        },
+        {
+          "skill": "Azure",
+          "presentInResume": false
+        },
+        {
+          "skill": "CI/CD",
+          "presentInResume": true
+        },
+        {
+          "skill": "DevOps",
+          "presentInResume": true
+        },
+        {
+          "skill": "ML",
+          "presentInResume": true
+        },
+        {
+          "skill": "Python",
+          "presentInResume": true
+        }
+      ],
+      "matchingScore": 70.6,
+      "weightedScore": 70.9,
+      "summary": "12/17 skills matched"
+    },
+    {
+      "jobId": "JD003",
+      "role": "Adobe Software Engineer",
+      "salary": "$139,000 - $257,550",
+      "aboutRole": "Adobe Software Engineer\n\nWhat You Need To Succeed:\nBachelor's or Master's in Computer Science, Computer Engineering, Electrical Engineering, or equivalent experience required.\n5-7+ years of relevant experience.\nProficient in programming languages such as Python, Java, C++, etc.\nStrong technical back",
+      "skillsAnalysis": [
+        {
+          "skill": "AI",
+          "presentInResume": false
+        },
+        {
+          "skill": "Angular",
+          "presentInResume": true
+        },
+        {
+          "skill": "C++",
+          "presentInResume": false
+        },
+        {
+          "skill": "DevOps",
+          "presentInResume": true
+        },
+        {
+          "skill": "Java",
+          "presentInResume": true
+        },
+        {
+          "skill": "ML",
+          "presentInResume": true
+        },
+        {
+          "skill": "Python",
+          "presentInResume": true
+        },
+        {
+          "skill": "React",
+          "presentInResume": true
+        },
+        {
+          "skill": "jQuery",
+          "presentInResume": false
+        }
+      ],
+      "matchingScore": 66.7,
+      "weightedScore": 66.7,
+      "summary": "6/9 skills matched"
+    },
+    {
+      "jobId": "JD007",
+      "role": "Software Engineer",
+      "salary": "$58",
+      "aboutRole": "Collaborate with cross-functional teams to build innovative application experiences.\nImplement custom user interfaces using latest programming techniques.\nDevelop reusable software components for interfacing with back-end platforms.\nAnalyze and optimize code for quality, efficiency, and performance.",
+      "skillsAnalysis": [
+        {
+          "skill": "C++",
+          "presentInResume": false
+        },
+        {
+          "skill": "JavaScript",
+          "presentInResume": true
+        },
+        {
+          "skill": "Python",
+          "presentInResume": true
+        }
+      ],
+      "matchingScore": 66.7,
+      "weightedScore": 20,
+      "summary": "2/3 skills matched"
+    },
+    {
+      "jobId": "JD010",
+      "role": "Software Engineer",
+      "salary": null,
+      "aboutRole": "Desired Qualifications:\nNode JS.\nReact.\nMySQL.\nPython.\nBash.\nJavascript.\nExperience with UI development.\nExperience with Back-end development.\nTS/SCI with Poly clearance.",
+      "skillsAnalysis": [
+        {
+          "skill": "Chef",
+          "presentInResume": false
+        },
+        {
+          "skill": "DevOps",
+          "presentInResume": true
+        },
+        {
+          "skill": "Jenkins",
+          "presentInResume": true
+        },
+        {
+          "skill": "Kubernetes",
+          "presentInResume": true
+        },
+        {
+          "skill": "Linux",
+          "presentInResume": true
+        },
+        {
+          "skill": "Windows",
+          "presentInResume": false
+        },
+        {
+          "skill": "TS/SCI",
+          "presentInResume": false
+        },
+        {
+          "skill": "TypeScript",
+          "presentInResume": true
+        }
+      ],
+      "matchingScore": 62.5,
+      "weightedScore": 61.7,
+      "summary": "5/8 skills matched"
+    },
+    {
+      "jobId": "JD013",
+      "role": "Software Engineer",
+      "salary": null,
+      "aboutRole": "What We'd Like You To Have:\nExperience with Docker or Kubernetes.\nFamiliarity with Ansible for configuration management.\nExperience with cloud-based hosting environments, such as AWS.\nProficiency with CI tools, such as Jenkins.",
+      "skillsAnalysis": [
+        {
+          "skill": "Ansible",
+          "presentInResume": false
+        },
+        {
+          "skill": "C/C++",
+          "presentInResume": false
+        },
+        {
+          "skill": "Docker",
+          "presentInResume": true
+        },
+        {
+          "skill": "Git",
+          "presentInResume": true
+        },
+        {
+          "skill": "Linux",
+          "presentInResume": true
+        },
+        {
+          "skill": "Python",
+          "presentInResume": true
+        },
+        {
+          "skill": "TS/SCI",
+          "presentInResume": false
+        },
+        {
+          "skill": "TypeScript",
+          "presentInResume": true
+        }
+      ],
+      "matchingScore": 62.5,
+      "weightedScore": 62.5,
+      "summary": "5/8 skills matched"
+    },
+    {
+      "jobId": "JD014",
+      "role": "Altamira Technologies Software Engineer",
+      "salary": null,
+      "aboutRole": "Nice to Haves:\nExperience with Docker Swarm, GitLab CI/CD processes, Python, Kibana, Prometheus, Grafana.",
+      "skillsAnalysis": [
+        {
+          "skill": "Bash",
+          "presentInResume": true
+        },
+        {
+          "skill": "Docker",
+          "presentInResume": true
+        },
+        {
+          "skill": "Elasticsearch",
+          "presentInResume": false
+        },
+        {
+          "skill": "JSON",
+          "presentInResume": false
+        },
+        {
+          "skill": "JavaScript",
+          "presentInResume": true
+        },
+        {
+          "skill": "Kubernetes",
+          "presentInResume": true
+        },
+        {
+          "skill": "Linux",
+          "presentInResume": true
+        },
+        {
+          "skill": "Node.js",
+          "presentInResume": true
+        },
+        {
+          "skill": "Shell",
+          "presentInResume": true
+        },
+        {
+          "skill": "TypeScript",
+          "presentInResume": true
+        },
+        {
+          "skill": "CI/CD",
+          "presentInResume": true
+        },
+        {
+          "skill": "GitLab CI",
+          "presentInResume": false
+        },
+        {
+          "skill": "Kibana",
+          "presentInResume": false
+        },
+        {
+          "skill": "Prometheus",
+          "presentInResume": false
+        },
+        {
+          "skill": "Python",
+          "presentInResume": true
+        },
+        {
+          "skill": "TS/SCI",
+          "presentInResume": false
+        }
+      ],
+      "matchingScore": 62.5,
+      "weightedScore": 66,
+      "summary": "10/16 skills matched"
+    },
+    {
+      "jobId": "JD012",
+      "role": "Lockheed Martin Full Stack Software Engineer",
+      "salary": null,
+      "aboutRole": "Desired Skills:\nExperience integrating software components via machine-to-machine interfaces (e.g., RESTful APIs, ActiveMQ).\nExperience with test automation and continuous integration and deployment.\nDemonstrated experience working in Agile teams leveraging Scrum, Kanban.\nExperience with Cloud envir",
+      "skillsAnalysis": [
+        {
+          "skill": "Full Stack",
+          "presentInResume": true
+        },
+        {
+          "skill": "Java",
+          "presentInResume": true
+        },
+        {
+          "skill": "Microservices",
+          "presentInResume": true
+        },
+        {
+          "skill": "TS/SCI",
+          "presentInResume": false
+        },
+        {
+          "skill": "TypeScript",
+          "presentInResume": true
+        },
+        {
+          "skill": "UI/UX",
+          "presentInResume": false
+        },
+        {
+          "skill": "ActiveMQ",
+          "presentInResume": false
+        },
+        {
+          "skill": "Agile",
+          "presentInResume": true
+        },
+        {
+          "skill": "Docker",
+          "presentInResume": true
+        },
+        {
+          "skill": "ELK Stack",
+          "presentInResume": false
+        },
+        {
+          "skill": "Kibana",
+          "presentInResume": false
+        },
+        {
+          "skill": "Kubernetes",
+          "presentInResume": true
+        },
+        {
+          "skill": "Logstash",
+          "presentInResume": false
+        },
+        {
+          "skill": "RESTful",
+          "presentInResume": true
+        },
+        {
+          "skill": "Scrum",
+          "presentInResume": true
+        }
+      ],
+      "matchingScore": 60,
+      "weightedScore": 63.3,
+      "summary": "9/15 skills matched"
+    },
+    {
+      "jobId": "JD011",
+      "role": "Software Engineer",
+      "salary": "$80,000 - $190,000",
+      "aboutRole": "Required Skills:\nBS in Computer Science, Engineering, or related field.\nMinimum 4 years of hands-on C++ software development experience.\nProficiency in Linux-based environments.\nFamiliarity with Agile methodologies, Scrum, and CI/CD practices.\nExperience with real-time operating systems (RTOS) and e",
+      "skillsAnalysis": [
+        {
+          "skill": "Agile",
+          "presentInResume": true
+        },
+        {
+          "skill": "C++",
+          "presentInResume": false
+        },
+        {
+          "skill": "CI/CD",
+          "presentInResume": true
+        },
+        {
+          "skill": "Embedded",
+          "presentInResume": false
+        },
+        {
+          "skill": "Git",
+          "presentInResume": true
+        },
+        {
+          "skill": "Linux",
+          "presentInResume": true
+        },
+        {
+          "skill": "RTOS",
+          "presentInResume": false
+        },
+        {
+          "skill": "SVN",
+          "presentInResume": false
+        },
+        {
+          "skill": "Scrum",
+          "presentInResume": true
+        }
+      ],
+      "matchingScore": 55.6,
+      "weightedScore": 55.6,
+      "summary": "5/9 skills matched"
+    },
+    {
+      "jobId": "JD004",
+      "role": "Astra Software Engineer",
+      "salary": "$130,000 - $160,000",
+      "aboutRole": "Why We Value You:\n3+ years of experience in software engineering, including production-level Python development.\nSolid understanding of system design, data pipelines, and APIs.\nExperience with cloud-native services (e.g., AWS, Kubernetes, Docker) and telemetry or time-series systems.\nFamiliarity wit",
+      "skillsAnalysis": [
+        {
+          "skill": "AWS",
+          "presentInResume": true
+        },
+        {
+          "skill": "Docker",
+          "presentInResume": true
+        },
+        {
+          "skill": "JSON",
+          "presentInResume": false
+        },
+        {
+          "skill": "Kubernetes",
+          "presentInResume": true
+        },
+        {
+          "skill": "Protobuf",
+          "presentInResume": false
+        },
+        {
+          "skill": "Python",
+          "presentInResume": true
+        },
+        {
+          "skill": "SOLID",
+          "presentInResume": false
+        },
+        {
+          "skill": "YAML",
+          "presentInResume": false
+        },
+        {
+          "skill": "gRPC",
+          "presentInResume": false
+        },
+        {
+          "skill": "Go",
+          "presentInResume": true
+        },
+        {
+          "skill": "TypeScript",
+          "presentInResume": true
+        }
+      ],
+      "matchingScore": 54.5,
+      "weightedScore": 61.1,
+      "summary": "6/11 skills matched"
+    },
+    {
+      "jobId": "JD009",
+      "role": "Software Engineer",
+      "salary": "$120,000 - $170,000",
+      "aboutRole": "Basic Qualifications:\nBachelor's degree in computer science, engineering, math, or scientific discipline.\nExperience in full stack development.",
+      "skillsAnalysis": [
+        {
+          "skill": "Full Stack",
+          "presentInResume": true
+        },
+        {
+          "skill": ".NET",
+          "presentInResume": false
+        },
+        {
+          "skill": "AngularJS",
+          "presentInResume": true
+        },
+        {
+          "skill": "C#",
+          "presentInResume": false
+        },
+        {
+          "skill": "CSS",
+          "presentInResume": true
+        },
+        {
+          "skill": "HTML",
+          "presentInResume": true
+        },
+        {
+          "skill": "Object Oriented",
+          "presentInResume": false
+        },
+        {
+          "skill": "Python",
+          "presentInResume": true
+        },
+        {
+          "skill": "SOLID",
+          "presentInResume": false
+        },
+        {
+          "skill": "SQL",
+          "presentInResume": true
+        },
+        {
+          "skill": "UI/UX",
+          "presentInResume": false
+        }
+      ],
+      "matchingScore": 54.5,
+      "weightedScore": 85,
+      "summary": "6/11 skills matched"
+    },
+    {
+      "jobId": "JD001",
+      "role": "Scientific Programmer/Software Engineer to support developmen",
+      "salary": "$180,000 - $220,000",
+      "aboutRole": "Required Qualifications:\nDegree in Computer Science, Software Engineering, Computational Science. Bachelor's with 5+ years of experience.\nApplied programming experience with low-level languages like C, C++ and/or Fortran.\nApplied software development on and for Linux or other Unix-like systems.\nAppl",
+      "skillsAnalysis": [
+        {
+          "skill": "C++",
+          "presentInResume": false
+        },
+        {
+          "skill": "Git",
+          "presentInResume": true
+        },
+        {
+          "skill": "Linux",
+          "presentInResume": true
+        },
+        {
+          "skill": "Python",
+          "presentInResume": true
+        },
+        {
+          "skill": "Shell",
+          "presentInResume": true
+        },
+        {
+          "skill": "MPI",
+          "presentInResume": false
+        },
+        {
+          "skill": "OpenMP",
+          "presentInResume": false
+        },
+        {
+          "skill": "Windows",
+          "presentInResume": false
+        }
+      ],
+      "matchingScore": 50,
+      "weightedScore": 56,
+      "summary": "4/8 skills matched"
+    },
+    {
+      "jobId": "JD008",
+      "role": "Accenture Federal Services Software Engineer",
+      "salary": "$75,500 - $131,200",
+      "aboutRole": "Accenture Federal Services Software Engineer\n\nMust have:\nExperience with software development.\nBachelors degree.\nActive TS/SCI with polygraph clearance.\n\nSalary: $75,500 - $131,200",
+      "skillsAnalysis": [
+        {
+          "skill": "TS/SCI",
+          "presentInResume": false
+        },
+        {
+          "skill": "TypeScript",
+          "presentInResume": true
+        }
+      ],
+      "matchingScore": 50,
+      "weightedScore": 50,
+      "summary": "1/2 skills matched"
+    },
+    {
+      "jobId": "JD006",
+      "role": "Applied Materials Software Engineer",
+      "salary": "$176,000 - $242,000",
+      "aboutRole": "Design and develop code for large scale complex software solutions for semiconductor equipment components.\nLead and execute complex software projects.\nDefine software specifications and test plans.\nCommunicate with internal and external customers for requirement analysis.\nTroubleshoot a wide range o",
+      "skillsAnalysis": [
+        {
+          "skill": "C#",
+          "presentInResume": false
+        },
+        {
+          "skill": "C++",
+          "presentInResume": false
+        },
+        {
+          "skill": "Computer Vision",
+          "presentInResume": false
+        },
+        {
+          "skill": "Embedded",
+          "presentInResume": false
+        },
+        {
+          "skill": "FPGA",
+          "presentInResume": false
+        },
+        {
+          "skill": "GPU",
+          "presentInResume": false
+        },
+        {
+          "skill": "Java",
+          "presentInResume": true
+        },
+        {
+          "skill": "Machine Learning",
+          "presentInResume": false
+        },
+        {
+          "skill": "Python",
+          "presentInResume": true
+        },
+        {
+          "skill": "Rust",
+          "presentInResume": false
+        },
+        {
+          "skill": "Signal Processing",
+          "presentInResume": false
+        }
+      ],
+      "matchingScore": 18.2,
+      "weightedScore": 5.5,
+      "summary": "2/11 skills matched"
+    }
+  ]
+}
