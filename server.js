@@ -87,11 +87,13 @@ const server = http.createServer((req, res) => {
         return;
     }
 
-    // Static File Serving
-    let filePath = path.join(__dirname, 'public', req.url === '/' ? 'index.html' : req.url);
+    // Static File Serving (Fallback if routing doesn't catch it)
+    // Vercel routes static files directly, this is mostly for local/Render
+    let filePath = path.join(process.cwd(), 'public', req.url === '/' ? 'index.html' : req.url);
 
     // Prevent directory traversal
-    if (filePath.indexOf(path.join(__dirname, 'public')) !== 0) {
+    const publicDir = path.join(process.cwd(), 'public');
+    if (filePath.indexOf(publicDir) !== 0) {
         res.writeHead(403);
         res.end('Forbidden');
         return;
@@ -130,10 +132,13 @@ const server = http.createServer((req, res) => {
 // For Vercel Serverless environment export
 module.exports = server;
 
-// If run directly via node server.js
-if (require.main === module) {
-    server.listen(PORT, () => {
-        console.log(`Server running at http://localhost:${PORT}/`);
-        console.log(`API endpoints: /api/match, /api/jds, /api/health`);
-    });
+// Only listen if run directly (Render/Local), Vercel will import and handle the request
+if (require.main === module || !process.env.VERCEL) {
+    // Check if we already have a listener (prevents EADDRINUSE in tests)
+    if (!server.listening) {
+        server.listen(PORT, () => {
+            console.log(`Server running at http://localhost:${PORT}/`);
+            console.log(`API endpoints: /api/match, /api/jds, /api/health`);
+        });
+    }
 }
