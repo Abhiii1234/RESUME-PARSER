@@ -4,7 +4,7 @@
   "description": "Resume parsing and job matching system",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js --server",
+    "start": "node server.js",
     "test": "node test.js"
   },
   "engines": {
