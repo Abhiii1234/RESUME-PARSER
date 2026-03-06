@@ -1,6 +1,10 @@
 # RESUME-PARSER
 
-A **rule-based** resume parsing and job matching system built with **pure Node.js** — zero external dependencies, zero LLMs.
+A **rule-based** resume parsing and job matching system with a modern Web Interface built with **pure Node.js** — zero external dependencies, zero LLMs.
+
+### 🌟 Live Demos
+- **Vercel Deployment:** [https://resume-parser-gamma.vercel.app/](https://resume-parser-gamma.vercel.app/)
+- **Render Deployment:** [https://resume-parser-1-lo6c.onrender.com](https://resume-parser-1-lo6c.onrender.com)
 
 ## Features
 
@@ -9,6 +13,7 @@ A **rule-based** resume parsing and job matching system built with **pure Node.j
 - **Skill Mapping** — Maps every JD skill against resume skills with `presentInResume: true/false`
 - **Matching Score** — `(Matched JD Skills / Total JD Skills) × 100`
 - **Weighted Score** — Required skills (70%) + Optional skills (30%) weighted variant
+- **Web Interface** — Beautiful, responsive Glassmorphic UI with animated match scores and visualizations
 - **HTTP API** — Built-in REST API using Node.js `http` module only
 - **No external packages** — Works with Node.js ≥14, no `npm install` needed
 
