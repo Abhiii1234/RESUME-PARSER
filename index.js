@@ -17,8 +17,9 @@ const path = require('path');
 const args = process.argv.slice(2);
 
 // ─── SERVER MODE ──────────────────────────────────────────────────────────────
-if (args.includes('--server')) {
+if (args.includes('--server') || process.env.PORT || process.env.NODE_ENV === 'production') {
   require('./server');
+  return; // Stop execution of CLI logic below
 }
 
 // ─── CLI / DEMO MODE ──────────────────────────────────────────────────────────
@@ -57,9 +58,15 @@ if (inputFile) {
   }
   console.log(`✅ Resume loaded from: ${filePath}\n`);
 } else {
+  // Graceful degradation if local sample file isn't available
   const samplePath = path.join(__dirname, 'data/resumes/sample_resume.txt');
-  resumeText = fs.readFileSync(samplePath, 'utf8');
-  console.log(`📋 Using sample resume: ${samplePath}\n`);
+  if (fs.existsSync(samplePath)) {
+    resumeText = fs.readFileSync(samplePath, 'utf8');
+    console.log(`📋 Using sample resume: ${samplePath}\n`);
+  } else {
+    console.warn(`⚠️ Sample resume not found at ${samplePath}. Exiting CLI mode.`);
+    process.exit(1);
+  }
 }
 
 // ─── LOAD JDs ─────────────────────────────────────────────────────────────────
