@@ -18,8 +18,7 @@ const args = process.argv.slice(2);
 
 // ─── SERVER MODE ──────────────────────────────────────────────────────────────
 if (args.includes('--server')) {
-  require('./src/server');
-  process.exit(0);
+  require('./server');
 }
 
 // ─── CLI / DEMO MODE ──────────────────────────────────────────────────────────

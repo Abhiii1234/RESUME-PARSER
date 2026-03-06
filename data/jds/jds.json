@@ -1,0 +1,22 @@
+[
+    {
+        "jobId": "JD001",
+        "text": "Position: Capgemini Java Full Stack Engineer\nSalary: $61,087 - $104,364\nShould have 7 years of strong hands-on experience with Core Java, Spring Boot.\nShould have 4 years of strong hands-on experience with Angular or React.\nHands On experience Relational Database: Microsoft SQL Server, DB2 or NoSQL is required.\nShould have strong hands on experience working on Microservices, REST API, Docker, Kubernetes, CI/CD, DevOps, Kafka.\nOptional skills: Python, ML, AI, Azure."
+    },
+    {
+        "jobId": "JD002",
+        "text": "Role: Software Engineer\nDesired Skills:\nPython.\nUnit testing.\nAgile programming.\nFull stack development.\nSTARS / MERN framework.\nSoftware testing.\nVM Infrastructure."
+    },
+    {
+        "jobId": "JD003",
+        "text": "Role: Adobe Software Engineer\nSalary: $139,000 - $257,550\nWhat You Need To Succeed:\nBachelor's or Master's in Computer Science, Computer Engineering, Electrical Engineering, or equivalent experience required.\n5-7+ years of relevant experience.\nProficient in programming languages such as Python, Java, C++, etc.\nStrong technical background in React, Angular, DevOps, ML."
+    },
+    {
+        "jobId": "JD004",
+        "text": "Title: Altamira Technologies Software Engineer\nNice to Haves:\nExperience with Docker Swarm, GitLab CI/CD processes, Python, Kibana, Prometheus, Grafana.\nRequired skills: Linux, Shell, Bash, JavaScript, TypeScript, Node.js, Kubernetes."
+    },
+    {
+        "jobId": "JD005",
+        "text": "Job Title: Software Engineer\nDesired Qualifications:\nNode JS.\nReact.\nMySQL.\nPython.\nBash.\nJavascript.\nExperience with UI development.\nExperience with Back-end development.\nTS/SCI with Poly clearance. Jenkins, Docker, Linux, Kubernetes, DevOps, TypeScript."
+    }
+]
